@@ -8,7 +8,7 @@ const mongoose = require('mongoose');
 
 
 //Connect to the MongoDB with Database named BlogDB
-mongoose.connect("mongodb+srv://admin-jose:test1234@cluster0.gjh5mwg.mongodb.net/blogDB");
+mongoose.connect("mongodb+srv://admin-jose:test1234@cluster0.gjh5mwg.mongodb.net/blogv2DB");
 
 const homeStartingContent = "This Blog should be available 24/7. Anyone can make a post going to the navigation tab and selecting 'Compose'. Your post can also be deleted by anyone who choses to click on the delete post button";
 const aboutContent = "Hey everyone! This website it just a web application for bloggin. It will only be used as an experimental project to test Client-Side, Server Application and Databse";
